@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5E7B3913F67DC100AC52F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3813F67DC100AC52F7 /* UIKit.framework */; };
+		8E5E7B3B13F67DC100AC52F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3A13F67DC100AC52F7 /* Foundation.framework */; };
+		8E5E7B3D13F67DC100AC52F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3C13F67DC100AC52F7 /* CoreGraphics.framework */; };
+		8E5E7B4313F67DC100AC52F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4113F67DC100AC52F7 /* InfoPlist.strings */; };
+		8E5E7B4513F67DC100AC52F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4413F67DC100AC52F7 /* main.m */; };
+		8E5E7B4913F67DC100AC52F7 /* tvselangorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4813F67DC100AC52F7 /* tvselangorAppDelegate.m */; };
+		8E5E7B4C13F67DC100AC52F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4A13F67DC100AC52F7 /* MainWindow.xib */; };
+		8E5E7B4F13F67DC100AC52F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4E13F67DC100AC52F7 /* FirstViewController.m */; };
+		8E5E7B5213F67DC100AC52F7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B5113F67DC100AC52F7 /* SecondViewController.m */; };
+		8E5E7B5513F67DC100AC52F7 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B5313F67DC100AC52F7 /* FirstView.xib */; };
+		8E5E7B5813F67DC100AC52F7 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B5613F67DC100AC52F7 /* SecondView.xib */; };
+		8E5E7B6013F67DC100AC52F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B5F13F67DC100AC52F7 /* SenTestingKit.framework */; };
+		8E5E7B6113F67DC100AC52F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3813F67DC100AC52F7 /* UIKit.framework */; };
+		8E5E7B6213F67DC100AC52F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3A13F67DC100AC52F7 /* Foundation.framework */; };
+		8E5E7B6313F67DC100AC52F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3C13F67DC100AC52F7 /* CoreGraphics.framework */; };
+		8E5E7B6B13F67DC100AC52F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B6913F67DC100AC52F7 /* InfoPlist.strings */; };
+		8E5E7B6D13F67DC100AC52F7 /* tvselangorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B6C13F67DC100AC52F7 /* tvselangorTests.h */; };
+		8E5E7B6F13F67DC100AC52F7 /* tvselangorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B6E13F67DC100AC52F7 /* tvselangorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E5E7B6413F67DC100AC52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5E7B2B13F67DC100AC52F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5E7B3313F67DC100AC52F7;
+			remoteInfo = tvselangor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E5E7B3413F67DC100AC52F7 /* tvselangor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvselangor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5E7B3813F67DC100AC52F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E5E7B3A13F67DC100AC52F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E5E7B3C13F67DC100AC52F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E5E7B4013F67DC100AC52F7 /* tvselangor-Info.plist */ = {isa = PBXFileReference; path = "tvselangor-Info.plist"; sourceTree = "<group>"; };
+		8E5E7B4213F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E5E7B4413F67DC100AC52F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E5E7B4613F67DC100AC52F7 /* tvselangor-Prefix.pch */ = {isa = PBXFileReference; path = "tvselangor-Prefix.pch"; sourceTree = "<group>"; };
+		8E5E7B4713F67DC100AC52F7 /* tvselangorAppDelegate.h */ = {isa = PBXFileReference; path = tvselangorAppDelegate.h; sourceTree = "<group>"; };
+		8E5E7B4813F67DC100AC52F7 /* tvselangorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvselangorAppDelegate.m; sourceTree = "<group>"; };
+		8E5E7B4B13F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8E5E7B4D13F67DC100AC52F7 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8E5E7B4E13F67DC100AC52F7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8E5E7B5013F67DC100AC52F7 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8E5E7B5113F67DC100AC52F7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8E5E7B5413F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		8E5E7B5713F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		8E5E7B5E13F67DC100AC52F7 /* tvselangorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvselangorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5E7B5F13F67DC100AC52F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E5E7B6813F67DC100AC52F7 /* tvselangorTests-Info.plist */ = {isa = PBXFileReference; path = "tvselangorTests-Info.plist"; sourceTree = "<group>"; };
+		8E5E7B6A13F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E5E7B6C13F67DC100AC52F7 /* tvselangorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tvselangorTests.h; sourceTree = "<group>"; };
+		8E5E7B6E13F67DC100AC52F7 /* tvselangorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvselangorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5E7B3113F67DC100AC52F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E7B3913F67DC100AC52F7 /* UIKit.framework in Frameworks */,
+				8E5E7B3B13F67DC100AC52F7 /* Foundation.framework in Frameworks */,
+				8E5E7B3D13F67DC100AC52F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E7B5A13F67DC100AC52F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E7B6013F67DC100AC52F7 /* SenTestingKit.framework in Frameworks */,
+				8E5E7B6113F67DC100AC52F7 /* UIKit.framework in Frameworks */,
+				8E5E7B6213F67DC100AC52F7 /* Foundation.framework in Frameworks */,
+				8E5E7B6313F67DC100AC52F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5E7B2913F67DC100AC52F7 = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B3E13F67DC100AC52F7 /* tvselangor */,
+				8E5E7B6613F67DC100AC52F7 /* tvselangorTests */,
+				8E5E7B3713F67DC100AC52F7 /* Frameworks */,
+				8E5E7B3513F67DC100AC52F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5E7B3513F67DC100AC52F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B3413F67DC100AC52F7 /* tvselangor.app */,
+				8E5E7B5E13F67DC100AC52F7 /* tvselangorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5E7B3713F67DC100AC52F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B3813F67DC100AC52F7 /* UIKit.framework */,
+				8E5E7B3A13F67DC100AC52F7 /* Foundation.framework */,
+				8E5E7B3C13F67DC100AC52F7 /* CoreGraphics.framework */,
+				8E5E7B5F13F67DC100AC52F7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E5E7B3E13F67DC100AC52F7 /* tvselangor */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B4713F67DC100AC52F7 /* tvselangorAppDelegate.h */,
+				8E5E7B4813F67DC100AC52F7 /* tvselangorAppDelegate.m */,
+				8E5E7B4A13F67DC100AC52F7 /* MainWindow.xib */,
+				8E5E7B4D13F67DC100AC52F7 /* FirstViewController.h */,
+				8E5E7B4E13F67DC100AC52F7 /* FirstViewController.m */,
+				8E5E7B5013F67DC100AC52F7 /* SecondViewController.h */,
+				8E5E7B5113F67DC100AC52F7 /* SecondViewController.m */,
+				8E5E7B5313F67DC100AC52F7 /* FirstView.xib */,
+				8E5E7B5613F67DC100AC52F7 /* SecondView.xib */,
+				8E5E7B3F13F67DC100AC52F7 /* Supporting Files */,
+			);
+			path = tvselangor;
+			sourceTree = "<group>";
+		};
+		8E5E7B3F13F67DC100AC52F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B4013F67DC100AC52F7 /* tvselangor-Info.plist */,
+				8E5E7B4113F67DC100AC52F7 /* InfoPlist.strings */,
+				8E5E7B4413F67DC100AC52F7 /* main.m */,
+				8E5E7B4613F67DC100AC52F7 /* tvselangor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E5E7B6613F67DC100AC52F7 /* tvselangorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B6C13F67DC100AC52F7 /* tvselangorTests.h */,
+				8E5E7B6E13F67DC100AC52F7 /* tvselangorTests.m */,
+				8E5E7B6713F67DC100AC52F7 /* Supporting Files */,
+			);
+			path = tvselangorTests;
+			sourceTree = "<group>";
+		};
+		8E5E7B6713F67DC100AC52F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B6813F67DC100AC52F7 /* tvselangorTests-Info.plist */,
+				8E5E7B6913F67DC100AC52F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5E7B3313F67DC100AC52F7 /* tvselangor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5E7B7213F67DC100AC52F7 /* Build configuration list for PBXNativeTarget "tvselangor" */;
+			buildPhases = (
+				8E5E7B3013F67DC100AC52F7 /* Sources */,
+				8E5E7B3113F67DC100AC52F7 /* Frameworks */,
+				8E5E7B3213F67DC100AC52F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvselangor;
+			productName = tvselangor;
+			productReference = 8E5E7B3413F67DC100AC52F7 /* tvselangor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E5E7B5D13F67DC100AC52F7 /* tvselangorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5E7B7513F67DC100AC52F7 /* Build configuration list for PBXNativeTarget "tvselangorTests" */;
+			buildPhases = (
+				8E5E7B5913F67DC100AC52F7 /* Sources */,
+				8E5E7B5A13F67DC100AC52F7 /* Frameworks */,
+				8E5E7B5B13F67DC100AC52F7 /* Resources */,
+				8E5E7B5C13F67DC100AC52F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E5E7B6513F67DC100AC52F7 /* PBXTargetDependency */,
+			);
+			name = tvselangorTests;
+			productName = tvselangorTests;
+			productReference = 8E5E7B5E13F67DC100AC52F7 /* tvselangorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5E7B2B13F67DC100AC52F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "ILAUNCH SDN BHD";
+			};
+			buildConfigurationList = 8E5E7B2E13F67DC100AC52F7 /* Build configuration list for PBXProject "tvselangor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E5E7B2913F67DC100AC52F7;
+			productRefGroup = 8E5E7B3513F67DC100AC52F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5E7B3313F67DC100AC52F7 /* tvselangor */,
+				8E5E7B5D13F67DC100AC52F7 /* tvselangorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5E7B3213F67DC100AC52F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E7B4313F67DC100AC52F7 /* InfoPlist.strings in Resources */,
+				8E5E7B4C13F67DC100AC52F7 /* MainWindow.xib in Resources */,
+				8E5E7B5513F67DC100AC52F7 /* FirstView.xib in Resources */,
+				8E5E7B5813F67DC100AC52F7 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E7B5B13F67DC100AC52F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E7B6B13F67DC100AC52F7 /* InfoPlist.strings in Resources */,
+				8E5E7B6D13F67DC100AC52F7 /* tvselangorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E5E7B5C13F67DC100AC52F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5E7B3013F67DC100AC52F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E7B4513F67DC100AC52F7 /* main.m in Sources */,
+				8E5E7B4913F67DC100AC52F7 /* tvselangorAppDelegate.m in Sources */,
+				8E5E7B4F13F67DC100AC52F7 /* FirstViewController.m in Sources */,
+				8E5E7B5213F67DC100AC52F7 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E7B5913F67DC100AC52F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E7B6F13F67DC100AC52F7 /* tvselangorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E5E7B6513F67DC100AC52F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5E7B3313F67DC100AC52F7 /* tvselangor */;
+			targetProxy = 8E5E7B6413F67DC100AC52F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E5E7B4113F67DC100AC52F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5E7B4213F67DC100AC52F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E5E7B4A13F67DC100AC52F7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5E7B4B13F67DC100AC52F7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8E5E7B5313F67DC100AC52F7 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5E7B5413F67DC100AC52F7 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		8E5E7B5613F67DC100AC52F7 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5E7B5713F67DC100AC52F7 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		8E5E7B6913F67DC100AC52F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5E7B6A13F67DC100AC52F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E5E7B7013F67DC100AC52F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E5E7B7113F67DC100AC52F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5E7B7313F67DC100AC52F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tvselangor/tvselangor-Prefix.pch";
+				INFOPLIST_FILE = "tvselangor/tvselangor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E5E7B7413F67DC100AC52F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tvselangor/tvselangor-Prefix.pch";
+				INFOPLIST_FILE = "tvselangor/tvselangor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E5E7B7613F67DC100AC52F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tvselangor.app/tvselangor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tvselangor/tvselangor-Prefix.pch";
+				INFOPLIST_FILE = "tvselangorTests/tvselangorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8E5E7B7713F67DC100AC52F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tvselangor.app/tvselangor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tvselangor/tvselangor-Prefix.pch";
+				INFOPLIST_FILE = "tvselangorTests/tvselangorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5E7B2E13F67DC100AC52F7 /* Build configuration list for PBXProject "tvselangor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5E7B7013F67DC100AC52F7 /* Debug */,
+				8E5E7B7113F67DC100AC52F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5E7B7213F67DC100AC52F7 /* Build configuration list for PBXNativeTarget "tvselangor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5E7B7313F67DC100AC52F7 /* Debug */,
+				8E5E7B7413F67DC100AC52F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E5E7B7513F67DC100AC52F7 /* Build configuration list for PBXNativeTarget "tvselangorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5E7B7613F67DC100AC52F7 /* Debug */,
+				8E5E7B7713F67DC100AC52F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5E7B2B13F67DC100AC52F7 /* Project object */;
+}
