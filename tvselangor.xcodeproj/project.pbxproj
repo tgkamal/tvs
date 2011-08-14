@@ -14,10 +14,6 @@
 		8E5E7B4513F67DC100AC52F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4413F67DC100AC52F7 /* main.m */; };
 		8E5E7B4913F67DC100AC52F7 /* tvselangorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4813F67DC100AC52F7 /* tvselangorAppDelegate.m */; };
 		8E5E7B4C13F67DC100AC52F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4A13F67DC100AC52F7 /* MainWindow.xib */; };
-		8E5E7B4F13F67DC100AC52F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B4E13F67DC100AC52F7 /* FirstViewController.m */; };
-		8E5E7B5213F67DC100AC52F7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B5113F67DC100AC52F7 /* SecondViewController.m */; };
-		8E5E7B5513F67DC100AC52F7 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B5313F67DC100AC52F7 /* FirstView.xib */; };
-		8E5E7B5813F67DC100AC52F7 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B5613F67DC100AC52F7 /* SecondView.xib */; };
 		8E5E7B6013F67DC100AC52F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B5F13F67DC100AC52F7 /* SenTestingKit.framework */; };
 		8E5E7B6113F67DC100AC52F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3813F67DC100AC52F7 /* UIKit.framework */; };
 		8E5E7B6213F67DC100AC52F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E7B3A13F67DC100AC52F7 /* Foundation.framework */; };
@@ -25,6 +21,22 @@
 		8E5E7B6B13F67DC100AC52F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B6913F67DC100AC52F7 /* InfoPlist.strings */; };
 		8E5E7B6D13F67DC100AC52F7 /* tvselangorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B6C13F67DC100AC52F7 /* tvselangorTests.h */; };
 		8E5E7B6F13F67DC100AC52F7 /* tvselangorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B6E13F67DC100AC52F7 /* tvselangorTests.m */; };
+		8E5E7B7B13F67E0C00AC52F7 /* SemasaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B7913F67E0C00AC52F7 /* SemasaViewController.m */; };
+		8E5E7B7C13F67E0C00AC52F7 /* SemasaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B7A13F67E0C00AC52F7 /* SemasaViewController.xib */; };
+		8E5E7B8013F67E2600AC52F7 /* NasionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B7E13F67E2600AC52F7 /* NasionalViewController.m */; };
+		8E5E7B8113F67E2600AC52F7 /* NasionalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B7F13F67E2600AC52F7 /* NasionalViewController.xib */; };
+		8E5E7B8513F67E3D00AC52F7 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B8313F67E3D00AC52F7 /* VideoViewController.m */; };
+		8E5E7B8613F67E3D00AC52F7 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B8413F67E3D00AC52F7 /* VideoViewController.xib */; };
+		8E5E7B8A13F67E5A00AC52F7 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B8813F67E5A00AC52F7 /* BlogViewController.m */; };
+		8E5E7B8B13F67E5A00AC52F7 /* BlogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B8913F67E5A00AC52F7 /* BlogViewController.xib */; };
+		8E5E7B8F13F67E8600AC52F7 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B8D13F67E8600AC52F7 /* MoreViewController.m */; };
+		8E5E7B9013F67E8600AC52F7 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B8E13F67E8600AC52F7 /* MoreViewController.xib */; };
+		8E5E7B9613F685B000AC52F7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7B9513F685B000AC52F7 /* Icon.png */; };
+		8E5E7B9F13F84A2C00AC52F7 /* BlogRss.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B9C13F84A2C00AC52F7 /* BlogRss.m */; };
+		8E5E7BA013F84A2C00AC52F7 /* BlogRssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7B9E13F84A2C00AC52F7 /* BlogRssParser.m */; };
+		8E5E7BA313F84AAD00AC52F7 /* unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7BA213F84AAD00AC52F7 /* unknown.jpg */; };
+		8E5E7BA713F84B0600AC52F7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E7BA513F84B0600AC52F7 /* DetailViewController.m */; };
+		8E5E7BA813F84B0600AC52F7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7BA613F84B0600AC52F7 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,25 +54,43 @@
 		8E5E7B3813F67DC100AC52F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8E5E7B3A13F67DC100AC52F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E5E7B3C13F67DC100AC52F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8E5E7B4013F67DC100AC52F7 /* tvselangor-Info.plist */ = {isa = PBXFileReference; path = "tvselangor-Info.plist"; sourceTree = "<group>"; };
+		8E5E7B4013F67DC100AC52F7 /* tvselangor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tvselangor-Info.plist"; sourceTree = "<group>"; };
 		8E5E7B4213F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E5E7B4413F67DC100AC52F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8E5E7B4613F67DC100AC52F7 /* tvselangor-Prefix.pch */ = {isa = PBXFileReference; path = "tvselangor-Prefix.pch"; sourceTree = "<group>"; };
-		8E5E7B4713F67DC100AC52F7 /* tvselangorAppDelegate.h */ = {isa = PBXFileReference; path = tvselangorAppDelegate.h; sourceTree = "<group>"; };
+		8E5E7B4613F67DC100AC52F7 /* tvselangor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tvselangor-Prefix.pch"; sourceTree = "<group>"; };
+		8E5E7B4713F67DC100AC52F7 /* tvselangorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tvselangorAppDelegate.h; sourceTree = "<group>"; };
 		8E5E7B4813F67DC100AC52F7 /* tvselangorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvselangorAppDelegate.m; sourceTree = "<group>"; };
 		8E5E7B4B13F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		8E5E7B4D13F67DC100AC52F7 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		8E5E7B4E13F67DC100AC52F7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8E5E7B5013F67DC100AC52F7 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		8E5E7B5113F67DC100AC52F7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8E5E7B5413F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		8E5E7B5713F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		8E5E7B5E13F67DC100AC52F7 /* tvselangorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvselangorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5E7B5F13F67DC100AC52F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8E5E7B6813F67DC100AC52F7 /* tvselangorTests-Info.plist */ = {isa = PBXFileReference; path = "tvselangorTests-Info.plist"; sourceTree = "<group>"; };
+		8E5E7B6813F67DC100AC52F7 /* tvselangorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tvselangorTests-Info.plist"; sourceTree = "<group>"; };
 		8E5E7B6A13F67DC100AC52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E5E7B6C13F67DC100AC52F7 /* tvselangorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tvselangorTests.h; sourceTree = "<group>"; };
 		8E5E7B6E13F67DC100AC52F7 /* tvselangorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvselangorTests.m; sourceTree = "<group>"; };
+		8E5E7B7813F67E0C00AC52F7 /* SemasaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemasaViewController.h; sourceTree = "<group>"; };
+		8E5E7B7913F67E0C00AC52F7 /* SemasaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemasaViewController.m; sourceTree = "<group>"; };
+		8E5E7B7A13F67E0C00AC52F7 /* SemasaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SemasaViewController.xib; sourceTree = "<group>"; };
+		8E5E7B7D13F67E2600AC52F7 /* NasionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NasionalViewController.h; sourceTree = "<group>"; };
+		8E5E7B7E13F67E2600AC52F7 /* NasionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NasionalViewController.m; sourceTree = "<group>"; };
+		8E5E7B7F13F67E2600AC52F7 /* NasionalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NasionalViewController.xib; sourceTree = "<group>"; };
+		8E5E7B8213F67E3D00AC52F7 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		8E5E7B8313F67E3D00AC52F7 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		8E5E7B8413F67E3D00AC52F7 /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		8E5E7B8713F67E5A00AC52F7 /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		8E5E7B8813F67E5A00AC52F7 /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		8E5E7B8913F67E5A00AC52F7 /* BlogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogViewController.xib; sourceTree = "<group>"; };
+		8E5E7B8C13F67E8600AC52F7 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		8E5E7B8D13F67E8600AC52F7 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		8E5E7B8E13F67E8600AC52F7 /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		8E5E7B9513F685B000AC52F7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8E5E7B9B13F84A2C00AC52F7 /* BlogRss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogRss.h; sourceTree = "<group>"; };
+		8E5E7B9C13F84A2C00AC52F7 /* BlogRss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogRss.m; sourceTree = "<group>"; };
+		8E5E7B9D13F84A2C00AC52F7 /* BlogRssParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogRssParser.h; sourceTree = "<group>"; };
+		8E5E7B9E13F84A2C00AC52F7 /* BlogRssParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogRssParser.m; sourceTree = "<group>"; };
+		8E5E7BA213F84AAD00AC52F7 /* unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unknown.jpg; sourceTree = "<group>"; };
+		8E5E7BA413F84B0600AC52F7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8E5E7BA513F84B0600AC52F7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8E5E7BA613F84B0600AC52F7 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,15 +151,12 @@
 		8E5E7B3E13F67DC100AC52F7 /* tvselangor */ = {
 			isa = PBXGroup;
 			children = (
+				8E5E7B9413F6854700AC52F7 /* Resources */,
+				8E5E7B9313F6852A00AC52F7 /* FeedParser */,
+				8E5E7B9213F67EB100AC52F7 /* View */,
+				8E5E7B9113F67E9B00AC52F7 /* Controller */,
 				8E5E7B4713F67DC100AC52F7 /* tvselangorAppDelegate.h */,
 				8E5E7B4813F67DC100AC52F7 /* tvselangorAppDelegate.m */,
-				8E5E7B4A13F67DC100AC52F7 /* MainWindow.xib */,
-				8E5E7B4D13F67DC100AC52F7 /* FirstViewController.h */,
-				8E5E7B4E13F67DC100AC52F7 /* FirstViewController.m */,
-				8E5E7B5013F67DC100AC52F7 /* SecondViewController.h */,
-				8E5E7B5113F67DC100AC52F7 /* SecondViewController.m */,
-				8E5E7B5313F67DC100AC52F7 /* FirstView.xib */,
-				8E5E7B5613F67DC100AC52F7 /* SecondView.xib */,
 				8E5E7B3F13F67DC100AC52F7 /* Supporting Files */,
 			);
 			path = tvselangor;
@@ -163,6 +190,59 @@
 				8E5E7B6913F67DC100AC52F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E5E7B9113F67E9B00AC52F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7BA413F84B0600AC52F7 /* DetailViewController.h */,
+				8E5E7BA513F84B0600AC52F7 /* DetailViewController.m */,
+				8E5E7B7813F67E0C00AC52F7 /* SemasaViewController.h */,
+				8E5E7B7913F67E0C00AC52F7 /* SemasaViewController.m */,
+				8E5E7B7D13F67E2600AC52F7 /* NasionalViewController.h */,
+				8E5E7B7E13F67E2600AC52F7 /* NasionalViewController.m */,
+				8E5E7B8213F67E3D00AC52F7 /* VideoViewController.h */,
+				8E5E7B8313F67E3D00AC52F7 /* VideoViewController.m */,
+				8E5E7B8713F67E5A00AC52F7 /* BlogViewController.h */,
+				8E5E7B8813F67E5A00AC52F7 /* BlogViewController.m */,
+				8E5E7B8C13F67E8600AC52F7 /* MoreViewController.h */,
+				8E5E7B8D13F67E8600AC52F7 /* MoreViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8E5E7B9213F67EB100AC52F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7BA613F84B0600AC52F7 /* DetailViewController.xib */,
+				8E5E7B7A13F67E0C00AC52F7 /* SemasaViewController.xib */,
+				8E5E7B7F13F67E2600AC52F7 /* NasionalViewController.xib */,
+				8E5E7B8413F67E3D00AC52F7 /* VideoViewController.xib */,
+				8E5E7B8913F67E5A00AC52F7 /* BlogViewController.xib */,
+				8E5E7B8E13F67E8600AC52F7 /* MoreViewController.xib */,
+				8E5E7B4A13F67DC100AC52F7 /* MainWindow.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8E5E7B9313F6852A00AC52F7 /* FeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7B9B13F84A2C00AC52F7 /* BlogRss.h */,
+				8E5E7B9C13F84A2C00AC52F7 /* BlogRss.m */,
+				8E5E7B9D13F84A2C00AC52F7 /* BlogRssParser.h */,
+				8E5E7B9E13F84A2C00AC52F7 /* BlogRssParser.m */,
+			);
+			name = FeedParser;
+			sourceTree = "<group>";
+		};
+		8E5E7B9413F6854700AC52F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E7BA213F84AAD00AC52F7 /* unknown.jpg */,
+				8E5E7B9513F685B000AC52F7 /* Icon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +317,14 @@
 			files = (
 				8E5E7B4313F67DC100AC52F7 /* InfoPlist.strings in Resources */,
 				8E5E7B4C13F67DC100AC52F7 /* MainWindow.xib in Resources */,
-				8E5E7B5513F67DC100AC52F7 /* FirstView.xib in Resources */,
-				8E5E7B5813F67DC100AC52F7 /* SecondView.xib in Resources */,
+				8E5E7B7C13F67E0C00AC52F7 /* SemasaViewController.xib in Resources */,
+				8E5E7B8113F67E2600AC52F7 /* NasionalViewController.xib in Resources */,
+				8E5E7B8613F67E3D00AC52F7 /* VideoViewController.xib in Resources */,
+				8E5E7B8B13F67E5A00AC52F7 /* BlogViewController.xib in Resources */,
+				8E5E7B9013F67E8600AC52F7 /* MoreViewController.xib in Resources */,
+				8E5E7B9613F685B000AC52F7 /* Icon.png in Resources */,
+				8E5E7BA313F84AAD00AC52F7 /* unknown.jpg in Resources */,
+				8E5E7BA813F84B0600AC52F7 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +362,14 @@
 			files = (
 				8E5E7B4513F67DC100AC52F7 /* main.m in Sources */,
 				8E5E7B4913F67DC100AC52F7 /* tvselangorAppDelegate.m in Sources */,
-				8E5E7B4F13F67DC100AC52F7 /* FirstViewController.m in Sources */,
-				8E5E7B5213F67DC100AC52F7 /* SecondViewController.m in Sources */,
+				8E5E7B7B13F67E0C00AC52F7 /* SemasaViewController.m in Sources */,
+				8E5E7B8013F67E2600AC52F7 /* NasionalViewController.m in Sources */,
+				8E5E7B8513F67E3D00AC52F7 /* VideoViewController.m in Sources */,
+				8E5E7B8A13F67E5A00AC52F7 /* BlogViewController.m in Sources */,
+				8E5E7B8F13F67E8600AC52F7 /* MoreViewController.m in Sources */,
+				8E5E7B9F13F84A2C00AC52F7 /* BlogRss.m in Sources */,
+				8E5E7BA013F84A2C00AC52F7 /* BlogRssParser.m in Sources */,
+				8E5E7BA713F84B0600AC52F7 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,22 +406,6 @@
 				8E5E7B4B13F67DC100AC52F7 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		8E5E7B5313F67DC100AC52F7 /* FirstView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E5E7B5413F67DC100AC52F7 /* en */,
-			);
-			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		8E5E7B5613F67DC100AC52F7 /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E5E7B5713F67DC100AC52F7 /* en */,
-			);
-			name = SecondView.xib;
 			sourceTree = "<group>";
 		};
 		8E5E7B6913F67DC100AC52F7 /* InfoPlist.strings */ = {
@@ -461,6 +537,7 @@
 				8E5E7B7413F67DC100AC52F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E5E7B7513F67DC100AC52F7 /* Build configuration list for PBXNativeTarget "tvselangorTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +546,7 @@
 				8E5E7B7713F67DC100AC52F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
