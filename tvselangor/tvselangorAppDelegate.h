@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class DetailViewController;
+@class BlogRss;
+
 @interface tvselangorAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end
