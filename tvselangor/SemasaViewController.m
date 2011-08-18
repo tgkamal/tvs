@@ -7,8 +7,17 @@
 //
 
 #import "SemasaViewController.h"
+#import "Parser.h"
+#import "DetailViewController.h"
+
+@interface SemasaViewController (PrivateMethods)
+- (void)loadData;
+@end
 
 @implementation SemasaViewController
+
+@synthesize activityIndicator, items;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -33,12 +42,19 @@
 {
     [super viewDidLoad];
 
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+	indicator.hidesWhenStopped = YES;
+	[indicator stopAnimating];
+	self.activityIndicator = indicator;
+	[indicator release];
+	
+	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithCustomView:indicator];
+	self.navigationItem.rightBarButtonItem = rightButton;
+	[rightButton release];
+    
  
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+
 
 - (void)viewDidUnload
 {
@@ -47,14 +63,33 @@
     // e.g. self.myOutlet = nil;
 }
 
+/*
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
 }
+*/
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    [self loadData];
     [super viewDidAppear:animated];
+}
+
+
+- (void)loadData {
+	if (items == nil) {
+		[activityIndicator startAnimating];
+		
+		Parser *rssParser = [[Parser alloc] init];
+		[rssParser parseRssFeed:@"http://feeds2.feedburner.com/TheMdnShow" withDelegate:self];
+		
+		[rssParser release];
+		
+	} else {
+		[self.tableView reloadData];
+	}
+	
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -75,18 +110,20 @@
 
 #pragma mark - Table view data source
 
+- (void)receivedItems:(NSArray *)theItems {
+	items = theItems;
+	[self.tableView reloadData];
+	[activityIndicator stopAnimating];
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+   return [items count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -95,10 +132,20 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    // Configure the cell...
+	// Configure the cell.
+	
+	cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"];
+	
+	// Format date
+	NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];	
+	[dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+	[dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+	
+	cell.detailTextLabel.text = [dateFormatter stringFromDate:[[items objectAtIndex:indexPath.row] objectForKey:@"date"]];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
@@ -146,14 +193,17 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
+    NSDictionary *theItem = [items objectAtIndex:indexPath.row];
+    DetailViewController *nextController = [[DetailViewController alloc] initWithItem:theItem];
+    [self.navigationController pushViewController:nextController animated:YES];
+    [nextController release];
+
+}
+
+- (void)dealloc {
+	[activityIndicator release];
+	[items release];
+    [super dealloc];
 }
 
 @end
