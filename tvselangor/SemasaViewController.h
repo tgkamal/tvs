@@ -17,6 +17,4 @@
 @property (retain, nonatomic) UIActivityIndicatorView *activityIndicator;
 @property (retain, nonatomic) NSArray *items;
 
-
-
 @end

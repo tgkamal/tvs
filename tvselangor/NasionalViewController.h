@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NasionalViewController : UITableViewController
+@interface NasionalViewController : UITableViewController{
+    UIActivityIndicatorView *activityIndicator;
+    NSArray *items;
+}
+
+@property (retain, nonatomic) UIActivityIndicatorView *activityIndicator;
+@property (retain, nonatomic) NSArray *items;
+
 
 @end

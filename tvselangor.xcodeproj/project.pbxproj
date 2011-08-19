@@ -42,6 +42,10 @@
 		8E5E7C5C13FC115C00AC52F7 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7C5B13FC115B00AC52F7 /* rss.png */; };
 		8E5E7C5E13FC116700AC52F7 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7C5D13FC116700AC52F7 /* play.png */; };
 		8E5E7C6013FC11B600AC52F7 /* speechmedia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5E7C5F13FC11B600AC52F7 /* speechmedia.png */; };
+		8ED0A16C13FE6EF700F2D48A /* VideoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A16A13FE6EF700F2D48A /* VideoDetailController.m */; };
+		8ED0A16D13FE6EF700F2D48A /* VideoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0A16B13FE6EF700F2D48A /* VideoDetailController.xib */; };
+		8ED0A17213FE711900F2D48A /* VideoNextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0A17013FE711900F2D48A /* VideoNextController.m */; };
+		8ED0A17313FE711900F2D48A /* VideoNextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0A17113FE711900F2D48A /* VideoNextController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +104,12 @@
 		8E5E7C5B13FC115B00AC52F7 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rss.png; sourceTree = "<group>"; };
 		8E5E7C5D13FC116700AC52F7 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		8E5E7C5F13FC11B600AC52F7 /* speechmedia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechmedia.png; sourceTree = "<group>"; };
+		8ED0A16913FE6EF700F2D48A /* VideoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailController.h; sourceTree = "<group>"; };
+		8ED0A16A13FE6EF700F2D48A /* VideoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailController.m; sourceTree = "<group>"; };
+		8ED0A16B13FE6EF700F2D48A /* VideoDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoDetailController.xib; sourceTree = "<group>"; };
+		8ED0A16F13FE711900F2D48A /* VideoNextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoNextController.h; sourceTree = "<group>"; };
+		8ED0A17013FE711900F2D48A /* VideoNextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoNextController.m; sourceTree = "<group>"; };
+		8ED0A17113FE711900F2D48A /* VideoNextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoNextController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +214,8 @@
 		8E5E7B9113F67E9B00AC52F7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8ED0A16913FE6EF700F2D48A /* VideoDetailController.h */,
+				8ED0A16A13FE6EF700F2D48A /* VideoDetailController.m */,
 				8E5E7BA413F84B0600AC52F7 /* DetailViewController.h */,
 				8E5E7BA513F84B0600AC52F7 /* DetailViewController.m */,
 				8E5E7B7813F67E0C00AC52F7 /* SemasaViewController.h */,
@@ -212,6 +224,8 @@
 				8E5E7B7E13F67E2600AC52F7 /* NasionalViewController.m */,
 				8E5E7B8213F67E3D00AC52F7 /* VideoViewController.h */,
 				8E5E7B8313F67E3D00AC52F7 /* VideoViewController.m */,
+				8ED0A16F13FE711900F2D48A /* VideoNextController.h */,
+				8ED0A17013FE711900F2D48A /* VideoNextController.m */,
 				8E5E7B8713F67E5A00AC52F7 /* BlogViewController.h */,
 				8E5E7B8813F67E5A00AC52F7 /* BlogViewController.m */,
 				8E5E7B8C13F67E8600AC52F7 /* MoreViewController.h */,
@@ -223,10 +237,12 @@
 		8E5E7B9213F67EB100AC52F7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8ED0A16B13FE6EF700F2D48A /* VideoDetailController.xib */,
 				8E5E7BA613F84B0600AC52F7 /* DetailViewController.xib */,
 				8E5E7B7A13F67E0C00AC52F7 /* SemasaViewController.xib */,
 				8E5E7B7F13F67E2600AC52F7 /* NasionalViewController.xib */,
 				8E5E7B8413F67E3D00AC52F7 /* VideoViewController.xib */,
+				8ED0A17113FE711900F2D48A /* VideoNextController.xib */,
 				8E5E7B8913F67E5A00AC52F7 /* BlogViewController.xib */,
 				8E5E7B8E13F67E8600AC52F7 /* MoreViewController.xib */,
 				8E5E7B4A13F67DC100AC52F7 /* MainWindow.xib */,
@@ -344,6 +360,8 @@
 				8E5E7C5C13FC115C00AC52F7 /* rss.png in Resources */,
 				8E5E7C5E13FC116700AC52F7 /* play.png in Resources */,
 				8E5E7C6013FC11B600AC52F7 /* speechmedia.png in Resources */,
+				8ED0A16D13FE6EF700F2D48A /* VideoDetailController.xib in Resources */,
+				8ED0A17313FE711900F2D48A /* VideoNextController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +406,8 @@
 				8E5E7B8F13F67E8600AC52F7 /* MoreViewController.m in Sources */,
 				8E5E7BA713F84B0600AC52F7 /* DetailViewController.m in Sources */,
 				8E5E7C5213F9957C00AC52F7 /* Parser.m in Sources */,
+				8ED0A16C13FE6EF700F2D48A /* VideoDetailController.m in Sources */,
+				8ED0A17213FE711900F2D48A /* VideoNextController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

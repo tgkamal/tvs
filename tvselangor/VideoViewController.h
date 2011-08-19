@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface VideoViewController : UITableViewController
+{
+    UIActivityIndicatorView *activityIndicator;
+    NSArray *items;
+}
+
+@property (retain, nonatomic) UIActivityIndicatorView *activityIndicator;
+@property (retain, nonatomic) NSArray *items;
+
 
 @end
